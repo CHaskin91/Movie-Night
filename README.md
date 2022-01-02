@@ -28,10 +28,9 @@ A webpage to find nearby theaters and movie times.
 * Bootstrap
 
 ## MVP (Minimum Viable Product)
-
--
+- When searching by Zip Code, Date, Miles, the app will return a list of all movies showing at the closest theater.
 
 
 ## Stretch Goals
-
--
+- Add Movie Trailers using Youtube API.
+- Add Restaurants within a certain radius of theater location.  
