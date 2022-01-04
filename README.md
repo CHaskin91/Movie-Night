@@ -7,7 +7,7 @@ A webpage to find nearby theaters and movie times.
 ## Developers
 - Corbin Haskin [https://github.com/CHaskin91]
 - Autumn Barrios [https://github.com/Autrose22]
-- Evan Diaz []
+- Evan Diaz [https://github.com/evand1998]
 - Danielle James [https://github.com/dosbor3]
 
 ## Installation Instructions
