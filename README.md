@@ -1,13 +1,17 @@
 # Movie-Night
 A webpage to find nearby theaters and movie times.
 
+## Links
+* Github Repo [https://github.com/CHaskin91/Movie-Night]
+* Movie Night Live URL [https://chaskin91.github.io/Movie-Night/]
+
 ## Project Summary
 - Search by city, zip, current location to view movie theaters within a certain radius. (USING GOOGLE MAPS API)
 
 ## Developers
 - Corbin Haskin [https://github.com/CHaskin91]
 - Autumn Barrios [https://github.com/Autrose22]
-- Evan Diaz []
+- Evan Diaz [https://github.com/evand1998]
 - Danielle James [https://github.com/dosbor3]
 
 ## Installation Instructions
@@ -25,7 +29,8 @@ A webpage to find nearby theaters and movie times.
 
 ## APIs
 * jQuery
-* Bootstrap
+* Bulma CSS
+* Google Fonts
 
 ## MVP (Minimum Viable Product)
 - When searching by Zip Code, Date, Miles, the app will return a list of all movies showing at the closest theater.
