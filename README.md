@@ -1,6 +1,10 @@
 # Movie-Night
 A webpage to find nearby theaters and movie times.
 
+## Links
+* Github Repo [https://github.com/CHaskin91/Movie-Night]
+* Movie Night Live URL [https://chaskin91.github.io/Movie-Night/]
+
 ## Project Summary
 - Search by city, zip, current location to view movie theaters within a certain radius. (USING GOOGLE MAPS API)
 
