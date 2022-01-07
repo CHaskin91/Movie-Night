@@ -29,9 +29,10 @@
                     <div class="box" style="width: 500px;">
                         <div class="box" style="height: 500px;">
                             <div class="field">
-                                <label class="label" id="label-zip">Zipcode</label>
+                                <label class="label" id="label-city">City</label>
                                 <div class="control">
-                                  <input class="input" id="input-zip" type="text" placeholder="Enter Zipcode">
+                                  <input class="input" id="input-city" type="text" placeholder="Enter City">
+                                  <button type="button" id="searchBtn" class="btn btn-primary"><i class="fas fa-search-location"></i></button>
                                 </div>
                             </div>
                             <div class="field">
@@ -45,30 +46,25 @@
                                 <div class="control">
                                   <input class="input" id="input-movie-title" type="text" placeholder="Enter Movie Title">
                                 </div>
-                    
-            <!--<div class="column is-one-quarter p-5">    
-            <div style="float:left; position:relative;left: 700px;">
-                <div class="columns">
-                    <div class="column is-narrow">
-                        <div class="box" style="width: 500px;">
-                            <div class="box" style="height: 500px;">-->             
+                            </div>
+
+                            <!-- FIX SEARCH HISTORY TO USE BULMA CSS AND NOT BOOTSTRAP -->
+                            <div class="row mt-3">
+                                <div class="col-12">
+                                    <ul id="searchHistory" class="list-group">
+                                        <!-- Append List Elements here -->
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--right side content --->
-                <label for="current-showtimes">Current Showtimes:</label>
-                <div id="content-right" class="col-md-9 pt-4">
-                    <div id="current-showtimes" class="border rounded"></div>
-                    <!--movie showings displayed below-->
-                    <div id="showtimes" class="mt-5"></div>
+                    <!--right side content --->
+                <div class="column">
+                    <div class="box" style="width: 500px;">
+                        <label for="current-showtimes">Current Showtimes:</label>
+                    </div>
                 </div>
-            
-             
-
-             
-
-
             </div>
         </div>
     </main>
@@ -90,7 +86,12 @@
         </div>
     </footer>
 
-    <!-- JavaScript Link-->
+    <!-- Font Awesome, JavaScript Link-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e2ad29a2f0.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 
