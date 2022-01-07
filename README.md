@@ -28,9 +28,9 @@ A webpage to find nearby theaters and movie times.
 * JS
 
 ## APIs
-* jQuery
-* Bulma CSS
-* Google Fonts
+* Bulma CSS [https://bulma.io/]
+* Google Fonts [https://developers.google.com/fonts]
+* MovieDB API [https://developers.themoviedb.org/3/getting-started/introduction]
 
 ## MVP (Minimum Viable Product)
 - When searching by Zip Code, Date, Miles, the app will return a list of all movies showing at the closest theater.
