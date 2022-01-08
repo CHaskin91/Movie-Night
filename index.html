@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <!-- Link CSS Sheet -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- Google Fonts -->
@@ -13,16 +12,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <title>Movie Night</title>
 </head>
-
-    <body>
-        <header>
-            <div class="header">
-                <h1>Let's go to the movies!</h1>
-            </div>
-        </header>
-
-        <main>
-            <div class="column is-one-quarter p-5 is-narrow box" style="width:500px;height:500px">
+<body>
+    <header>
+        <div class="header">
+            <h1>Let's go to the movies!</h1>
+        </div>
+    </header>
+    <main>
+        <!--Main container-->
+        <div id="content" class="column is-one-quarter p-5 is-narrow columns">
+            <div class="box" style="height:500px;width:500px;">
                 <div class="field">
                     <label class="label" id="label-zip">Zipcode</label>
                     <div class="control">
@@ -41,11 +40,36 @@
                     <label class="label" id="label-movie-title">Movie Title</label>
                     <div class="control">
                         <input class="input" id="input-movie-title" type="text" placeholder="Enter Movie Title">
-                    </div>
-                </div>                    
+                    </div>            
+                </div>
+            </div>
+            <!--right side content --->
+            <label for="current-showtimes">Current Showtimes:</label>
+            <div id="content-right" class="col-md-9 pt-4">
+                <div id="current-showtimes" class="border rounded"></div>
+                <!--movie showings displayed below-->
+                <div id="showtimes" class="mt-5"></div>
             </div>            
-        </main>
-        <!-- JavaScript Link-->
-        <script src="./assets/js/script.js"></script>
-    </body>
+        </div>
+    </main>
+    <footer>
+        <h2>Created By</h2>
+        <div>
+        <p>Corbin Haskin:
+            <a href="https://github.com/CHaskin91">CHaskin91</a>
+        </p>
+        <p>Autumn Barrios:
+            <a href="https://github.com/Autrose22">Autrose22</a>
+        </p>
+        <p>Evan Diaz:
+            <a href="https://github.com/evand1998">evand1998</a>
+        </p>
+        <p>Danielle James:
+            <a href="https://github.com/dosbor3">dosbor3</a>
+        </p>
+        </div>
+    </footer>
+    <!-- JavaScript Link-->
+    <script src="./assets/js/script.js"></script>
+</body>
 </html>

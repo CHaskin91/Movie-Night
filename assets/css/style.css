@@ -10,4 +10,26 @@
     border-style: solid;
     border-width: 5px;
     margin: 5px;
+    background-color: antiquewhite;
+    color: black;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: antiquewhite;
+    color: black;
+}
+
+footer h2 {
+    display: inline;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
 }
