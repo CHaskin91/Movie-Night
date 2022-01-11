@@ -5,8 +5,19 @@ const apiURL = baseURL + '/discover/movie?sort_by=popularity.desc&' + apiKey;
 getMovies(apiURL);
 
 function getMovies(url) {
-    fetch(url).then(res => res.json).then(data => {
-        console.log(data);
+    fetch(url).then(res => res.json()).then(data => {
+        
+        showMovies(data.results);
+    })
+}
+
+function showMovies(data) {
+
+    data.forEach(movie => {
+        const movieEl = document.createElement('div');
+        movieEl.classList.add('movie');
+        movieEl.innerHTML = `
+        `
     })
 }
 
