@@ -7,7 +7,7 @@ getMovies(apiURL);
 
 function getMovies(url) {
     fetch(url).then(res => res.json()).then(data => {
-        
+        console.log(data.results)
         showMovies(data.results);
     })
 }
@@ -15,10 +15,11 @@ function getMovies(url) {
 function showMovies(data) {
 
     data.forEach(movie => {
+        const {title, poster_path, vote_average, overview} = movie;
         const movieEl = document.createElement('div');
         movieEl.classList.add('movie');
         movieEl.innerHTML = `
-            <img src="" alt="image">
+            <img src="${imgURL + poster_path}" alt="${title}">
 
             <div class="movie-info">
                 <h3>Movie Title</h3>
