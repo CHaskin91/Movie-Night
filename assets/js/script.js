@@ -17,6 +17,18 @@ function showMovies(data) {
         const movieEl = document.createElement('div');
         movieEl.classList.add('movie');
         movieEl.innerHTML = `
+            <img src="pawel-czerwinski-zmQ5Ux6nm_o-unsplash.jpg" alt="image">
+
+            <div class="movie-info">
+                <h3>Movie Title</h3>
+                <span class="green">9.8</span>
+            </div>
+            <div class="overview">
+                <h3>overview</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolorum, neque. Ut ratione excepturi doloremque sint rerum distinctio, earum ea dolorem suscipit enim
+                aut facilis omnis eius ducimus fuga harum obcaecati.
+            </div>
         `
     })
 }
