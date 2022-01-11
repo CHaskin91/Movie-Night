@@ -1,6 +1,18 @@
+const apiKey = 'api_key=636459deadfe82e42a5d3a5699ce8a6c';
+const baseURL = 'https://api.themoviedb.org/3/';
+const apiURL = baseURL + '/discover/movie?sort_by=popularity.desc&' + apiKey;
+
+getMovies(apiURL);
+
+function getMovies(url) {
+    fetch(url).then(res => res.json).then(data => {
+        console.log(data);
+    })
+}
+
 // Global Variables
-var apiKey = "636459deadfe82e42a5d3a5699ce8a6c";
-var searchHistoryList = [];
+// var apiKey = "636459deadfe82e42a5d3a5699ce8a6c";
+// var searchHistoryList = [];
 
 // let baseURL = 'https://api.themoviedb.org/3/';
 // let configData = null;
