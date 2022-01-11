@@ -6,11 +6,11 @@ body {
     background-color: grey;
     margin: 0;
 }
-header {
+/* header {
     padding: 1rem;
     display: flex;
     justify-content: flex-end;
-}
+} */
 .search {
     background-color: transparent;
     padding: 0.5rem 1rem;
