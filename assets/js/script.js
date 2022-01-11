@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-//TMDB
-=======
 const apiKey = 'api_key=636459deadfe82e42a5d3a5699ce8a6c';
 const baseURL = 'https://api.themoviedb.org/3/';
 const apiURL = baseURL + '/discover/movie?sort_by=popularity.desc&' + apiKey;
@@ -24,7 +21,6 @@ function showMovies(data) {
     })
 }
 
->>>>>>> 319c717e75a24c6e2211688f39cc30fcfcedd7d7
 // Global Variables
 // var apiKey = "636459deadfe82e42a5d3a5699ce8a6c";
 // var searchHistoryList = [];
