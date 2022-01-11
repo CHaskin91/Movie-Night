@@ -1,6 +1,7 @@
 const apiKey = 'api_key=636459deadfe82e42a5d3a5699ce8a6c';
 const baseURL = 'https://api.themoviedb.org/3/';
 const apiURL = baseURL + '/discover/movie?sort_by=popularity.desc&' + apiKey;
+const imgURL = 'https://image.tmdb.org/t/p/w500/';
 
 getMovies(apiURL);
 
@@ -17,7 +18,7 @@ function showMovies(data) {
         const movieEl = document.createElement('div');
         movieEl.classList.add('movie');
         movieEl.innerHTML = `
-            <img src="pawel-czerwinski-zmQ5Ux6nm_o-unsplash.jpg" alt="image">
+            <img src="" alt="image">
 
             <div class="movie-info">
                 <h3>Movie Title</h3>
