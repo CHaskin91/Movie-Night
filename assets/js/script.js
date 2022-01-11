@@ -1,6 +1,29 @@
+const apiKey = 'api_key=636459deadfe82e42a5d3a5699ce8a6c';
+const baseURL = 'https://api.themoviedb.org/3/';
+const apiURL = baseURL + '/discover/movie?sort_by=popularity.desc&' + apiKey;
+
+getMovies(apiURL);
+
+function getMovies(url) {
+    fetch(url).then(res => res.json()).then(data => {
+        
+        showMovies(data.results);
+    })
+}
+
+function showMovies(data) {
+
+    data.forEach(movie => {
+        const movieEl = document.createElement('div');
+        movieEl.classList.add('movie');
+        movieEl.innerHTML = `
+        `
+    })
+}
+
 // Global Variables
-var apiKey = "636459deadfe82e42a5d3a5699ce8a6c";
-var searchHistoryList = [];
+// var apiKey = "636459deadfe82e42a5d3a5699ce8a6c";
+// var searchHistoryList = [];
 
 // let baseURL = 'https://api.themoviedb.org/3/';
 // let configData = null;
@@ -36,41 +59,3 @@ var searchHistoryList = [];
 // }
 
 // document.addEventListener('DOMContentLoaded', getConfig);
-
-
-
-
-// Event Listener for Search Button
-// $("#searchBtn").on("click", function(event) {
-//     event.preventDefault();
-
-//     var city = $("#enterCity").val().trim();
-//     currentCondition(city);
-//         if (!searchHistoryList.includes(city)) {
-//             searchHistoryList.push(city);
-//             var searchedCity = $(`<li class="list-group-item">${city}</li>`);
-//             $("#searchHistory").append(searchedCity);
-//         };
-
-//         // localStorage
-//         localStorage.setItem("city", JSON.stringify(searchHistoryList));
-//         console.log(searchHistoryList);
-// });
-
-// // Search History
-// $(document).on("click", ".list-group-item", function() {
-//     var listCity = $(this).text();
-//     currentCondition(listCity);
-// });
-
-// // Store past searches
-// $(document).ready(function() {
-//     var searchHistoryArr = JSON.parse(localStorage.getItem("city"));
-
-//     if (searchHistoryArr !== null) {
-//         var lastSearchedIndex = searchHistoryArr.length - 1;
-//         var lastSearchedCity = searchHistoryArr[lastSearchedIndex];
-//         currentCondition(lastSearchedCity);
-//         console.log(`Last searched City: ${lastSearchedCity}`);
-//     }
-// });
