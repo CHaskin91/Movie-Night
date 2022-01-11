@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!-- Link CSS Sheet -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- Google Fonts -->
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <title>Movie Night</title>
 </head>
+
 <body>
     <header>
         <form id="form">
@@ -25,55 +27,35 @@
         </div>
     </header>
 
-
 <main id="main">
     <div class="movie">
         <img src="pawel-czerwinski-zmQ5Ux6nm_o-unsplash.jpg" alt="image">
     </div>
-    <main>
 
-        <!--Main container
-        <div id="content" class="column is-one-quarter p-5 is-narrow columns">
-            <div class="columns">
-                <div class="box" style="height:500px;width:500px;">
-                    <div class="field">
-                        <label class="label" id="label-city">City</label>
-                        <div class="control">
-                        <input class="input" id="input-city" type="text" placeholder="Enter City">
-                        <button type="button" id="searchBtn" class="btn btn-primary"><i class="fas fa-search-location"></i></button>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <label class="label" id="label-date">Date</label>
-                        <div class="control">
-                        <input class="input" id="input-date" type="text" placeholder="Enter Date">
-                        </div>
-                    </div>
-                    <div class="field">
-                        <label class="label" id="label-movie-title">Movie Title</label>
-                        <div class="control">
-                        <input class="input" id="input-movie-title" type="text" placeholder="Enter Movie Title">
-                        </div>
-                    </div>
-                </div>
-                <!-- FIX SEARCH HISTORY TO USE BULMA CSS AND NOT BOOTSTRAP -->
-                <div class="row mt-3">
-                    <div class="col-12">
-                        <ul id="searchHistory" class="list-group">
-                            <!-- Append List Elements here -->
-                        </ul>
-                    </div>
-                </div>            
-        
-            <!--right side content --->
-            <div class="column">
-                <div class="box" style="width: 500px;">
-                    <label for="current-showtimes">Current Showtimes:</label>
+<main>
+    <!-- Search History (Left Column) -->
+    <!-- <div id="content" class="column is-one-quarter p-5 is-narrow columns"> -->
+        <div class="columns">
+            <div class="column is-narrow">
+                <div class="box" style="height:500px;width:300px;">
+                    <p class="title is-5">Search History</p>
+                    <p class="subtitle">Lorem Epsum - Local Storage Here</p>        
                 </div>
             </div>
-        </div>           
-       
-    </main> -->
+    <!-- Search History END -->
+            <!-- Display Movie Content (Right Column/Body) --->
+            <div class="column">
+                <div class="box">
+                    <p class="title is-5">Movies:</p>
+                    <li>
+                        <img src="https://image.tmdb.org/t/p/w500/3nYlM34QhzdtAvWRV5bN4nLtnTc.jpg" alt="Jaws"/>
+                    </li>
+                    <div id="output">
+                        <!-- Output will go here -->
+                    </div>              
+             </div>
+            </main>     
+   
     <footer>
         <h2>Created By</h2>
         <div>
@@ -91,12 +73,8 @@
         </p>
         </div>
     </footer>
-    <!-- Font Awesome, JavaScript Link-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/e2ad29a2f0.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+<!-- Font Awesome, JavaScript Link-->
+<script src="https://kit.fontawesome.com/e2ad29a2f0.js" crossorigin="anonymous"></script>
+<script src="./assets/js/script.js"></script>
 </body>
 </html>
