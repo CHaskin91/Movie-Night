@@ -1,12 +1,9 @@
 # Movie-Night
-A webpage to find nearby theaters and movie times.
+A webpage to search for movies!  User will view Poster Images, Movie Details, Movie Ratings.
 
 ## Links
 * Github Repo [https://github.com/CHaskin91/Movie-Night]
 * Movie Night Live URL [https://chaskin91.github.io/Movie-Night/]
-
-## Project Summary
-- Search by city, zip, current location to view movie theaters within a certain radius. (USING GOOGLE MAPS API)
 
 ## Developers
 - Corbin Haskin [https://github.com/CHaskin91]
@@ -19,9 +16,6 @@ A webpage to find nearby theaters and movie times.
 2. Open the main page (index.html) on your browser to view
 3. Use a text editor to view all coding.  Visual Studio Code is recommended.
 
-## Animated Gifs/Pictures of App
-- Place various screens of your app here after they have been built
-
 ## Languages
 * HTML
 * CSS
@@ -33,9 +27,10 @@ A webpage to find nearby theaters and movie times.
 * MovieDB API [https://developers.themoviedb.org/3/getting-started/introduction]
 
 ## MVP (Minimum Viable Product)
-- When searching by Zip Code, Date, Miles, the app will return a list of all movies showing at the closest theater.
-
+- When opening the app, user is presented with current most popular movies.  User can search by movie title or keyword and is returned the top related movies. 
 
 ## Stretch Goals
-- Add Movie Trailers using Youtube API.
-- Add Restaurants within a certain radius of theater location.  
+- Add Movie Theater look up time.
+- Add Movie Trailers with the Movie Details.
+- Add Filter by Movie Genre.
+- Add Movie Run Time.  
