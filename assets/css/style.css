@@ -18,18 +18,15 @@ header {
 }
 
 header h1 {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 60px;
+    color: white;
     text-align: center;
     padding-top: 10px;
     padding-right: 15px;
     padding-bottom: 20px;
     padding-left: 25px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    
 }
 
 main {
@@ -39,6 +36,7 @@ main {
 }
 
 footer {
+    color: white;
     background: #790001;
     height: 200px;
     width: 100px;
