@@ -1,5 +1,5 @@
 # Movie-Night
-A webpage to search for movies!  User will view Poster Images, Movie Details, Movie Ratings.
+A webpage to search for movies!  User can search for movie titles in order to view poster images, movie details, and movie ratings.
 
 ## Links
 * Github Repo [https://github.com/CHaskin91/Movie-Night]
