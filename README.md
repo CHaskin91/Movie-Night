@@ -33,4 +33,6 @@ A webpage to search for movies!  User will view Poster Images, Movie Details, Mo
 - Add Movie Theater look up time.
 - Add Movie Trailers with the Movie Details.
 - Add Filter by Movie Genre.
-- Add Movie Run Time.  
+- Add Movie Run Time.
+- Add a "Return" button.
+- Add Pagination to view more results.
