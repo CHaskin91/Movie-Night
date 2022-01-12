@@ -1,5 +1,5 @@
-![image]()
-![image]()
+![image](https://github.com/CHaskin91/Movie-Night/blob/main/assets/images/screenshot.PNG)
+![image](https://github.com/CHaskin91/Movie-Night/blob/main/assets/images/screenshot_search.PNG)
 # Movie-Night
 A webpage to search for movies!  User can search for movie titles in order to view poster images, movie details, and movie ratings.
 
