@@ -38,3 +38,10 @@ A webpage to search for movies!  User can search for movie titles in order to vi
 - Add Movie Run Time.
 - Add a "Return" button.
 - Add Pagination to view more results.
+
+## Resources
+- Movie DB API Help Vid [https://www.youtube.com/watch?v=bpHtxx_wmqw]
+- Movie DB API Additional Help Vid [https://www.youtube.com/watch?v=ytNyibPQFhw]
+- Movie DB API Documentation [https://developers.themoviedb.org/3/getting-started/introduction]
+- Bulma CSS Cheat Sheet [https://devhints.io/bulma]
+- YouTube Data API Intro Vid [https://www.youtube.com/watch?v=TE66McLMMEw]
