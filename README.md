@@ -29,7 +29,7 @@ A webpage to search for movies!  User can search for movie titles in order to vi
 * MovieDB API [https://developers.themoviedb.org/3/getting-started/introduction]
 
 ## MVP (Minimum Viable Product)
-- When opening the app, user is presented with current most popular movies.  User can search by movie title or keyword and is returned the top related movies. 
+- When opening the app, user is presented with current most popular movies.  User can search by movie title or keyword and is returned the top related movies with a descriptive movie overview, movie rating, and movie poster image. 
 
 ## Stretch Goals
 - Add Movie Theater look up time.
