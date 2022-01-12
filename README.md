@@ -1,5 +1,5 @@
-![image]()
-![image]()
+![image](https://github.com/CHaskin91/Movie-Night/blob/main/assets/images/screenshot.PNG)
+![image](https://github.com/CHaskin91/Movie-Night/blob/main/assets/images/screenshot_search.PNG)
 # Movie-Night
 A webpage to search for movies!  User can search for movie titles in order to view poster images, movie details, and movie ratings.
 
@@ -29,7 +29,7 @@ A webpage to search for movies!  User can search for movie titles in order to vi
 * MovieDB API [https://developers.themoviedb.org/3/getting-started/introduction]
 
 ## MVP (Minimum Viable Product)
-- When opening the app, user is presented with current most popular movies.  User can search by movie title or keyword and is returned the top related movies. 
+- When opening the app, user is presented with current most popular movies.  User can search by movie title or keyword and is returned the top related movies with a descriptive movie overview, movie rating, and movie poster image. 
 
 ## Stretch Goals
 - Add Movie Theater look up time.
@@ -38,3 +38,10 @@ A webpage to search for movies!  User can search for movie titles in order to vi
 - Add Movie Run Time.
 - Add a "Return" button.
 - Add Pagination to view more results.
+
+## Resources
+- Movie DB API Help Vid [https://www.youtube.com/watch?v=bpHtxx_wmqw]
+- Movie DB API Additional Help Vid [https://www.youtube.com/watch?v=ytNyibPQFhw]
+- Movie DB API Documentation [https://developers.themoviedb.org/3/getting-started/introduction]
+- Bulma CSS Cheat Sheet [https://devhints.io/bulma]
+- YouTube Data API Intro Vid [https://www.youtube.com/watch?v=TE66McLMMEw]
